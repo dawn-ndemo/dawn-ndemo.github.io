@@ -38,3 +38,27 @@ nav span {
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
+
+/* Projects Styling */
+.projects{
+  color: black;
+  background: rgb(19, 1, 50);
+}
+.projects .title {
+    color: #fff;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.projects h4 {
+    color: #fff;
+}
+.projects a:link {
+  color: white;
+}
+.projects a:visited {
+  color: coral;
+}
+.projects a:hover {
+  color: yellow;
+}
