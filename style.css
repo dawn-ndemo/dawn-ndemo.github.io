@@ -1,4 +1,32 @@
+/* body, html {
+    height: 100%;
+} */
+
 /* NAVBAR STYLING */
 nav span {
     color: orange;
+}
+
+/* Hero Styling */
+.hero-image {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/blue-laptop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-title {
+    font-size: 3rem;
+}
+.hero-desc {
+    font-size: 1.2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
