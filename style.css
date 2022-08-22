@@ -17,10 +17,10 @@ nav span {
     position: relative;
 }
 .hero-title {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .hero-desc {
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 .hero-text {
     text-align: center;
@@ -29,4 +29,12 @@ nav span {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+/* Image and About Section */
+.about img {
+    height: 300px;
+    width: 300px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
