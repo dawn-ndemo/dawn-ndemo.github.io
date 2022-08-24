@@ -50,7 +50,7 @@ nav span {
     margin-top: 15px;
 }
 
-.projects h4 {
+.projects h5 {
     color: #fff;
 }
 .projects a:link {
@@ -61,4 +61,29 @@ nav span {
 }
 .projects a:hover {
   color: yellow;
+}
+
+.container {
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 130px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #f97f05;
+}
+.servicesText:hover {
+    border: 1px solid #f97f05;
 }
