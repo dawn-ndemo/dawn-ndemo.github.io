@@ -63,12 +63,12 @@ nav span {
   color: yellow;
 }
 
-.container {
+.projects, .skills, .contact{
     padding-bottom: 30px;
     margin-bottom: 10px;
 }
 
-/* services section css */
+/* Skills section css */
 .servicesText.card {
     height: 130px;
     cursor: pointer;
@@ -85,5 +85,38 @@ nav span {
     color: #f97f05;
 }
 .servicesText:hover {
-    border: 1px solid #f97f05;
+    border: 2px solid #f97f05;
+}
+
+#contact {
+    background-color: rgb(19, 1, 50);
+    color: #fff;
+}
+
+.contact .center-form {
+    display:block;
+    width:50%;
+    margin:0 auto;
+}
+
+#contact .title {
+    color: #fff;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+/* Footer styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #f97f05;
+}
+.footer .fab {
+    color: #f9f9f9d4;
+}
+#footer {
+    background-color: #111111;
+    text-align: center;
 }
