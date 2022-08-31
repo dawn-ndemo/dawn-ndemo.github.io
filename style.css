@@ -109,7 +109,7 @@ nav span {
     cursor: pointer;
     color: #fff;
 }
-.contact .container .social-icons .fab:hover, .fas:hover{
+.contact .social-icons .fab:hover, .fas:hover{
     color: #f97f05;
 }
 
@@ -136,7 +136,4 @@ footer .container .copyright-footer a{
 }
 footer .container .copyright-footer a:hover{
     color: red;
-}
-footer .container .copyright-footer a:visited{
-    color:cadetblue;
 }
