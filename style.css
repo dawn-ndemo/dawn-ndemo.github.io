@@ -53,7 +53,7 @@ nav span {
     margin-top: 15px;
 }
 
-.projects h5 {
+.projects h6 {
     color: #fff;
 }
 .projects a:link {
@@ -97,15 +97,20 @@ nav span {
     padding-top: 15px;
     margin-top: 15px;
 }
+.contact h6{
+    color: rgb(200, 255, 255)
+}
 #contact {
-    background-color: rgb(19, 1, 50);
+    background-color: rgb(32, 1, 86);
     color: #fff;
 }
-
-.contact .center-form {
-    display: block;
-    width: 60%;
-    margin: 0 auto;
+.contact .social-icons .fab , .fas {
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+.contact .container .social-icons .fab:hover, .fas:hover{
+    color: #f97f05;
 }
 
 /* Footer styling */
