@@ -120,13 +120,6 @@ nav span {
     padding-bottom: 10px;
     margin-bottom: 0px;
 }
-.social-icons {
-    font-size: 25px;
-    cursor: pointer;
-}
-footer .container .social-icons .fab:hover{
-    color: #f97f05;
-}
 .footer .fab {
     color: #f9f9f9d4;
 }
